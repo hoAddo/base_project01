@@ -1,0 +1,60 @@
+2019-02-08 23:43:48.833 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStarting:50 -Starting BaseProjectApplication on ADDO with PID 160020 (F:\DevelopDownload\idea-workspace\base_project\target\classes started by Administrator in F:\DevelopDownload\idea-workspace\base_project)
+2019-02-08 23:43:48.838 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-02-08 23:43:48.961 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-08 23:43:48.971 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-08 23:43:50.115 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-08 23:43:50.116 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-08 23:43:50.149 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-02-08 23:43:51.444 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-08 23:43:51.486 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-08 23:43:51.522 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-08 23:43:51.522 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-08 23:43:51.540 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Develop\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\Develop\Java\jdk1.8.0_191\bin;D:\app\Administrator\product\11.2.0\dbhome_1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Develop\MySQL\MySQL Server 5.5\bin;D:\Develop\apache-tomcat-9.0.8\bin;D:\Develop\apache-maven-3.5.4\bin;C:\Users\Administrator.DESKTOP-SCN6MVB\AppData\Local\Microsoft\WindowsApps;;.]
+2019-02-08 23:43:52.007 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-08 23:43:52.007 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 3036 ms
+2019-02-08 23:43:53.138 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-08 23:43:53.528 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-08 23:43:53.568 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-08 23:43:53.603 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-08 23:43:53.613 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStarted:59 -Started BaseProjectApplication in 5.61 seconds (JVM running for 8.323)
+2019-02-08 23:46:26.331 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-08 23:46:26.331 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-08 23:46:26.340 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-02-08 23:46:26.367 INFO [http-nio-8080-exec-1]com.hphclass.base_project.controller.LogbackController.testLog:19 -this is info level
+2019-02-08 23:46:26.368 WARN [http-nio-8080-exec-1]com.hphclass.base_project.controller.LogbackController.testLog:20 -this is warn level
+2019-02-08 23:48:39.011 INFO [Thread-18]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-08 23:48:40.868 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStarting:50 -Starting BaseProjectApplication on ADDO with PID 160020 (F:\DevelopDownload\idea-workspace\base_project\target\classes started by Administrator in F:\DevelopDownload\idea-workspace\base_project)
+2019-02-08 23:48:40.868 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-02-08 23:48:41.255 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-08 23:48:41.255 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-08 23:48:41.255 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-02-08 23:48:41.594 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-08 23:48:41.594 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-08 23:48:41.594 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-08 23:48:41.604 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-08 23:48:41.684 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-08 23:48:41.684 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 806 ms
+2019-02-08 23:48:41.900 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-08 23:48:42.018 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-08 23:48:42.068 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-08 23:48:42.076 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-08 23:48:42.078 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStarted:59 -Started BaseProjectApplication in 1.286 seconds (JVM running for 296.793)
+2019-02-08 23:48:42.088 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 -Condition evaluation unchanged
+2019-02-08 23:48:54.714 INFO [Thread-26]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-08 23:48:56.425 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStarting:50 -Starting BaseProjectApplication on ADDO with PID 160020 (F:\DevelopDownload\idea-workspace\base_project\target\classes started by Administrator in F:\DevelopDownload\idea-workspace\base_project)
+2019-02-08 23:48:56.426 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-02-08 23:48:56.829 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-08 23:48:56.829 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-08 23:48:56.838 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-02-08 23:48:57.351 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-08 23:48:57.352 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-08 23:48:57.353 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-08 23:48:57.353 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-08 23:48:57.433 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-08 23:48:57.434 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1004 ms
+2019-02-08 23:48:57.567 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-08 23:48:57.730 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-08 23:48:57.769 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-08 23:48:57.782 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-08 23:48:57.785 INFO [restartedMain]com.hphclass.base_project.BaseProjectApplication.logStarted:59 -Started BaseProjectApplication in 1.418 seconds (JVM running for 312.493)
+2019-02-08 23:48:57.789 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 -Condition evaluation unchanged
