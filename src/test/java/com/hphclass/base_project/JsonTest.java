@@ -23,7 +23,7 @@ public class JsonTest {
         User user = new User();
         user.setAge(18);
         user.setCreateTime(new Date());
-        user.setPhone("10086");
+        user.setPhone("1008611");
         user.setPwd("123456");
         String str = JsonUtils.obj2String(user);
         System.out.println(str);
